@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="InetBankingV1">
+
+	<listeners>
+		<listener class-name="com.inetBanking.utilities.Reporting" />
+	</listeners>
+
+
+	<test name="BankingApp Test">
+		<groups>
+			<run>
+				<!-- <include name="regression" /> -->
+				<include name="sra" />
+			</run>
+		</groups>
+		<packages>
+			<package name="com.inetBanking.testCases.*" />
+		</packages>
+		<classes>
+			<class name="com.inetBanking.testCases.TC_AddBet_001.java" />
+		</classes>
+	</test>
+
+</suite> 

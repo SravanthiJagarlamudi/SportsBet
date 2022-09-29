@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8391" started-at="2022-09-29T03:23:56Z" finished-at="2022-09-29T03:24:05Z">
+    <groups>
+      <group name="sra">
+        <method signature="TC_AddBet_001.validatingcartwith1BetAddded()[pri:1, instance:com.inetBetting.testCases.TC_AddBet_001@4f7d0008]" name="validatingcartwith1BetAddded" class="com.inetBetting.testCases.TC_AddBet_001"/>
+      </group> <!-- sra -->
+      <group name="regression">
+        <method signature="TC_AddBet_001.validatingcartwith1BetAddded()[pri:1, instance:com.inetBetting.testCases.TC_AddBet_001@4f7d0008]" name="validatingcartwith1BetAddded" class="com.inetBetting.testCases.TC_AddBet_001"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="Default test" duration-ms="8391" started-at="2022-09-29T03:23:56Z" finished-at="2022-09-29T03:24:05Z">
+      <class name="com.inetBetting.testCases.TC_AddBet_001">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.inetBetting.testCases.TC_AddBet_001@4f7d0008]" name="setup" is-config="true" duration-ms="5363" started-at="2022-09-29T03:23:56Z" finished-at="2022-09-29T03:24:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validatingcartwith1BetAddded()[pri:1, instance:com.inetBetting.testCases.TC_AddBet_001@4f7d0008]" name="validatingcartwith1BetAddded" duration-ms="2215" started-at="2022-09-29T03:24:02Z" description="to check if the 1 bet is added" finished-at="2022-09-29T03:24:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingcartwith1BetAddded -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetBetting.testCases.TC_AddBet_001@4f7d0008]" name="tearDown" is-config="true" duration-ms="768" started-at="2022-09-29T03:24:04Z" finished-at="2022-09-29T03:24:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.inetBetting.testCases.TC_AddBet_001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
